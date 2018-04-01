@@ -1,0 +1,47 @@
+.InlineFlex{
+    display: inline-flex;
+    align-items: center;
+    height: 120px;
+    padding: 0 4px;
+    background-color: indigo;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #ddd;
+}
+.FlexWrapper,
+.FlexWrapper2{
+    background-color: indigo;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+}
+.FlexInner{
+    background-color: #34005b;
+    display: flex;
+    height: 100px;
+    width: 25%;
+    color: #ddd;
+}
+.AlignSelf{
+    align-self: flex-end;
+}
+
+p.note{
+    margin: 10px 0px 10px 1px;
+}
+
+.FlexInner2{
+    border: 1px solid #ebebeb;
+    background-color: #34005b;
+    display: flex;
+    height: 100px;
+    color: #ddd;
+}
+.FlexOne{
+    flex: 1.5 0 auto;
+}
+.FlexTwo,
+.FlexThree{
+    flex: 1 0 auto;
+}
